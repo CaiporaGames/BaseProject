@@ -8,10 +8,10 @@ using UnityEngine;
 /// </summary>
 public class UIService : MonoBehaviour, IUIService
 {
-    private readonly Dictionary<string, IUIController> _controllers = new();
-    private readonly HashSet<string> _initialized = new();
+    private readonly Dictionary<ScreenTypes, IUIController> _controllers = new();
+    private readonly HashSet<ScreenTypes> _initialized = new();
 
-    public void Register(string key, IUIController controller)
+    public void Register(ScreenTypes key, IUIController controller)
     {
         if (_controllers.ContainsKey(key))
             throw new ArgumentException($"Controller with key '{key}' already registered.");
@@ -19,7 +19,7 @@ public class UIService : MonoBehaviour, IUIService
         _controllers[key] = controller;
     }
 
-    public async UniTask ShowScreenAsync(string key, object payload = null)
+    public async UniTask ShowScreenAsync(ScreenTypes key, object payload = null)
     {
         if (!_controllers.TryGetValue(key, out var ctrl))
             throw new KeyNotFoundException($"No UI controller for key '{key}'.");
@@ -33,7 +33,7 @@ public class UIService : MonoBehaviour, IUIService
         await ctrl.ShowAsync(payload);
     }
 
-    public UniTask HideScreenAsync(string key)
+    public UniTask HideScreenAsync(ScreenTypes key)
         => _controllers.TryGetValue(key, out var ctrl)
             ? ctrl.HideAsync()
             : throw new KeyNotFoundException($"No UI controller for key '{key}'.");

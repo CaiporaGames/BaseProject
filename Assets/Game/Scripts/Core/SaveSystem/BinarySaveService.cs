@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class BinarySaveService : ISaveService
 {
-    string GetPath(string key) => Path.Combine(Application.persistentDataPath, key + ".bin");
+    string GetPath(SaveType key) => Path.Combine(Application.persistentDataPath, key + ".bin");
 
-    public UniTask<T> LoadAsync<T>(string key) where T : IBinarySerializable, new()
+    public UniTask<T> LoadAsync<T>(SaveType key) where T : IBinarySerializable, new()
     {
         var path = GetPath(key);
         if (!File.Exists(path))
@@ -19,7 +19,7 @@ public class BinarySaveService : ISaveService
         return UniTask.FromResult(obj);
     }
 
-    public UniTask SaveAsync<T>(string key, T data) where T : IBinarySerializable
+    public UniTask SaveAsync<T>(SaveType key, T data) where T : IBinarySerializable
     {
         var path = GetPath(key);
         Directory.CreateDirectory(Path.GetDirectoryName(path));

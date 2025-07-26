@@ -22,7 +22,7 @@ public class GameFlowManager : MonoBehaviour
         ServiceLocator.RegisterSingleton<IObjectPool<GameObject>>(_bulletPool);
         ServiceLocator.RegisterSingleton<IUpdateManager>(_updateManager);
         
-        _uiService.Register("MainMenu", _mainMenu);
+        _uiService.Register(ScreenTypes.MainMenu, _mainMenu);
         // _uiService.Register("Settings", _settingsController);
     }
     public async void Start()
@@ -32,8 +32,8 @@ public class GameFlowManager : MonoBehaviour
         var pool  = ServiceLocator.Resolve<IObjectPool<GameObject>>();
 
         // Show main menu at game start
-        await ui.ShowScreenAsync("MainMenu");
-        _uiService.Register("MainMenu", _mainMenu);
+        await ui.ShowScreenAsync(ScreenTypes.MainMenu);
+        _uiService.Register(ScreenTypes.MainMenu, _mainMenu);
         /*  playerSpawner = FindFirstObjectByType<PlayerSpawner>();
           playerSpawner.Initialize(transform.GetComponent<PlayerChunkStreamer>());
           GetComponent<HitDetector>().cam = playerSpawner.GetCamera;
