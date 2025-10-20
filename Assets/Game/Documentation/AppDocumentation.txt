@@ -1,0 +1,94 @@
+
+Background - Rice White - #FFFFF0 - Clean canvas that keeps the app bright & light
+Primary Button - Sakura Pink - #F8B5B2 - Friendly and soft, encourages interaction
+Secondary Button - Leaf Green - #E8F0D7 - Gentle contrast with an organic feel
+Navigation Bar - Sky Blue - #A7D3F2 - Peaceful and inviting at the top
+Accent Elements - Wood Brown - #B37942 - Adds depth and cultural warmth
+Text - Charcoal Gray - #3D3D3D - Clear readability without harshness
+
+#FBE7C2
+
+
+Map:
+Author: MELLE
+License: It's freely available (CC0)
+Link: https://opengameart.org/content/simple-map-tiles
+
+
+
+
+######### levels data json form ######### 
+
+{
+  "version": "1.0",
+  "levels": [
+    {
+      "id": "level_1",
+      "title": "The Cat and the Sun",
+      "xpRequired": 0,
+      "textId": "text_level_1",
+      "imageUrls": [
+        "https://cdn.yourapp.com/images/level1_1.png",
+        "https://cdn.yourapp.com/images/level1_2.png"
+      ],
+      "games": ["match", "quiz", "tap"],
+      "tags": ["intro", "animals", "feelings"]
+    },
+    {
+      "id": "level_2",
+      "title": "The Bento Box Mystery",
+      "xpRequired": 10,
+      "textId": "text_level_2",
+      "imageUrls": [
+        "https://cdn.yourapp.com/images/level2_1.png"
+      ],
+      "games": ["match", "tap", "listen"],
+      "tags": ["food", "school"]
+    }
+  ]
+}
+
+
+#########  text_level_1 ######### 
+
+{
+  "id": "text_level_1",
+  "title": "The Beginning",
+  "description": "Learn your first Hiragana characters!",
+  "x": 300,
+  "y": 450,
+  "thumbnail": "level1_image.png",
+  "story": [
+    {
+      "image": "story1_img1.png",
+      "text_jp": "ねこがいます。",
+      "text_romaji": "neko ga imasu.",
+      "text_en": "There is a cat."
+    },
+    {
+      "image": "story1_img2.png",
+      "text_jp": "ねこはかわいいです。",
+      "text_romaji": "neko wa kawaii desu.",
+      "text_en": "The cat is cute."
+    }
+  ]
+}
+
+
+
+#########  dictionary ######### 
+
+{
+  "ねこ": {
+    "romaji": "neko",
+    "en": "cat",
+    "pt": "gato",
+    "category": ["animals"]
+  },
+  "たいよう": {
+    "romaji": "taiyou",
+    "en": "sun",
+    "pt": "sol",
+    "category": ["nature", "weather"]
+  }
+}

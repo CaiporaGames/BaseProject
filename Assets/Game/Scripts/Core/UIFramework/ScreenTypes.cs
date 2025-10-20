@@ -1,4 +1,7 @@
 public enum ScreenTypes
 {
-    MainMenu
+    AuthScren,
+    LevelLoaderScreen,
+    LevelDetailScreen,
+    StoryScreen
 }

@@ -6,13 +6,13 @@ using UnityEngine;
 /// </summary>
 public abstract class BaseUIController : MonoBehaviour, IUIController
 {
-    [SerializeField] private CanvasGroup _canvasGroup;
+    public CanvasGroup canvasGroup;
 
     protected virtual void Awake()
     {
-        gameObject.SetActive(false);
-        if (_canvasGroup == null)
-            _canvasGroup = GetComponent<CanvasGroup>();
+        //gameObject.SetActive(false);
+        if (canvasGroup == null)
+            canvasGroup = GetComponent<CanvasGroup>();
     }
 
     public virtual async UniTask InitializeAsync()
@@ -21,33 +21,42 @@ public abstract class BaseUIController : MonoBehaviour, IUIController
         await UniTask.Yield();
     }
 
-    public async UniTask ShowAsync(object payload = null)
+    public virtual async UniTask ShowAsync<T>(T data = default)
     {
-        gameObject.SetActive(true);
-        await Fade(0, 1);
-        OnShow(payload);
+        await Fade(1);
     }
 
-    public async UniTask HideAsync()
+    public virtual async UniTask HideAsync<T>(T data = default)
     {
-        OnHide();
-        await Fade(1, 0);
-        gameObject.SetActive(false);
+        await Fade(0);
     }
 
-    protected virtual void OnShow(object payload) { }
-    protected virtual void OnHide() { }
-
-    private async UniTask Fade(float from, float to)
+    private async UniTask Fade(float to)
     {
+        float from = canvasGroup.alpha;
+
+        if (Mathf.Approximately(from, to))
+        {
+            canvasGroup.interactable = to == 1;
+            canvasGroup.blocksRaycasts = to == 1;
+            return;
+        }
+
         float t = 0f;
         const float duration = 0.25f;
+
         while (t < duration)
         {
             t += Time.deltaTime;
-            _canvasGroup.alpha = Mathf.Lerp(from, to, t / duration);
+            canvasGroup.alpha = Mathf.Lerp(from, to, t / duration);
+            canvasGroup.interactable = to == 1;
+            canvasGroup.blocksRaycasts = to == 1;
             await UniTask.Yield();
         }
-        _canvasGroup.alpha = to;
+
+        canvasGroup.alpha = to;
+        canvasGroup.interactable = to == 1;
+        canvasGroup.blocksRaycasts = to == 1;
     }
+
 }

@@ -60,3 +60,14 @@ public class EnemyAI : MonoBehaviour
         // your per-frame logic here
     }
 }
+
+
+How to use the scene director?
+
+var director = ServiceLocator.Resolve<ISceneDirector>();
+var flow = await director.LoadAsync("Level_01");
+if (flow != null) await flow.InitializeAsync(GameContext.FromLocator());
+
+to unload:
+var sceneName = gameObject.scene.name;
+        await director.UnloadAsync(sceneName);

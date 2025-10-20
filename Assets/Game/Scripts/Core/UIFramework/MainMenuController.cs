@@ -8,16 +8,6 @@ public class MainMenuController : BaseUIController
         await UniTask.Delay(100);
         // setup buttons callbacks
     }
-
-    protected override void OnShow(object payload)
-    {
-        // e.g. highlight default button
-    }
-
-    protected override void OnHide()
-    {
-        // cleanup if needed
-    }
 }
 
 /*

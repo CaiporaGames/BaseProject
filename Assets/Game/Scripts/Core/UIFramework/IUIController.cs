@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
 
 public interface IUIController
@@ -6,8 +7,8 @@ public interface IUIController
     UniTask InitializeAsync();
 
     /// <summary>Show the screen with optional payload.</summary>
-    UniTask ShowAsync(object payload = null);
+    UniTask ShowAsync<T>(T data = default);
 
     /// <summary>Hide the screen.</summary>
-    UniTask HideAsync();
+    UniTask HideAsync<T>(T data = default);
 }

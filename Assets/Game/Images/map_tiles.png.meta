@@ -1,0 +1,1206 @@
+fileFormatVersion: 2
+guid: a5328dc27e93a03409b6d2512be32d2f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4383390958192937480
+    second: map_tiles_0
+  - first:
+      213: 4484424034553307340
+    second: map_tiles_1
+  - first:
+      213: 984925467744021163
+    second: map_tiles_2
+  - first:
+      213: -2865361831375743556
+    second: map_tiles_3
+  - first:
+      213: -1975395266137552942
+    second: map_tiles_4
+  - first:
+      213: 4139987310886165389
+    second: map_tiles_5
+  - first:
+      213: -3689806418822163
+    second: map_tiles_6
+  - first:
+      213: 2613652263046608732
+    second: map_tiles_7
+  - first:
+      213: 1985121356617323437
+    second: map_tiles_8
+  - first:
+      213: 1729372142473240743
+    second: map_tiles_9
+  - first:
+      213: 46025511170422088
+    second: map_tiles_10
+  - first:
+      213: -2759577504154310451
+    second: map_tiles_11
+  - first:
+      213: 8627697732051245876
+    second: map_tiles_12
+  - first:
+      213: 3390015234144355829
+    second: map_tiles_13
+  - first:
+      213: -8192247243106015667
+    second: map_tiles_14
+  - first:
+      213: 1134881870695140533
+    second: map_tiles_15
+  - first:
+      213: -377028710522209993
+    second: map_tiles_16
+  - first:
+      213: -1623141497697861175
+    second: map_tiles_17
+  - first:
+      213: 4299720040396068897
+    second: map_tiles_18
+  - first:
+      213: -5715971328100653405
+    second: map_tiles_19
+  - first:
+      213: -7944326050402318220
+    second: map_tiles_20
+  - first:
+      213: -3698721330037775953
+    second: map_tiles_21
+  - first:
+      213: 2373814739986342222
+    second: map_tiles_22
+  - first:
+      213: -1641747571286869363
+    second: map_tiles_23
+  - first:
+      213: -2664487109572100360
+    second: map_tiles_24
+  - first:
+      213: -2060654627026512937
+    second: map_tiles_25
+  - first:
+      213: -8291304767753054693
+    second: map_tiles_26
+  - first:
+      213: 7100268590758550116
+    second: map_tiles_27
+  - first:
+      213: 2002585706088649164
+    second: map_tiles_28
+  - first:
+      213: 5890413764621180197
+    second: map_tiles_29
+  - first:
+      213: 2228238371141840485
+    second: map_tiles_30
+  - first:
+      213: 4656703582900423571
+    second: map_tiles_31
+  - first:
+      213: 1527481881803353154
+    second: map_tiles_32
+  - first:
+      213: 107721120537539747
+    second: map_tiles_33
+  - first:
+      213: -2935169078533590758
+    second: map_tiles_34
+  - first:
+      213: -2165316126131023906
+    second: map_tiles_35
+  - first:
+      213: 3844179407655397205
+    second: map_tiles_36
+  - first:
+      213: 5619654209533888323
+    second: map_tiles_37
+  - first:
+      213: -6568552080734082035
+    second: map_tiles_38
+  - first:
+      213: -4669970906815542028
+    second: map_tiles_39
+  - first:
+      213: -2669307096308239827
+    second: map_tiles_40
+  - first:
+      213: -3478059565470136672
+    second: map_tiles_41
+  - first:
+      213: 8334826480737688729
+    second: map_tiles_42
+  - first:
+      213: -1258515893359996794
+    second: map_tiles_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BigVulcan
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 819
+        width: 315
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f53041d5211b23c0800000000000000
+      internalID: -4383390958192937480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MidiumVulcan
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 857
+        width: 153
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc026c166efdb3e30800000000000000
+      internalID: 4484424034553307340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallVulcan
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 869
+        width: 109
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa2e1b9e782bad00800000000000000
+      internalID: 984925467744021163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinyVulcan
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 879
+        width: 71
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5d2ef78903c38d0800000000000000
+      internalID: -2865361831375743556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TwoBigMountains
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 805
+        width: 386
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d702e6b87cf594e0800000000000000
+      internalID: -1975395266137552942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MediumMoutains
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 854
+        width: 257
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b9eff4680347930800000000000000
+      internalID: 4139987310886165389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallMoutains
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 883
+        width: 159
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: debbd1ff324e2fff0800000000000000
+      internalID: -3689806418822163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SingleMountain
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 913
+        width: 53
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57f941b2ee854420800000000000000
+      internalID: 2613652263046608732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallSingleMoutain
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 922
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da397313b519c8b10800000000000000
+      internalID: 1985121356617323437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TwoSmallMoutains
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 918
+        width: 46
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0e29c0dc6fff710800000000000000
+      internalID: 1729372142473240743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TwoRoundMoutains
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 632
+        width: 206
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8453be365f383a000800000000000000
+      internalID: 46025511170422088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_tiles_11
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 773
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc829be71e204b9d0800000000000000
+      internalID: -2759577504154310451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigLake
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 630
+        width: 277
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b9b54306dbbb770800000000000000
+      internalID: 8627697732051245876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoundWhole
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 695
+        width: 132
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f54656f4e0cb0f20800000000000000
+      internalID: 3390015234144355829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CraqueWhole
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 679
+        width: 246
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d462e7a698a4f4e80800000000000000
+      internalID: -8192247243106015667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SingleRoundMoutain
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 674
+        width: 173
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc80dc6c09efbf00800000000000000
+      internalID: 1134881870695140533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MidiumLake
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 662
+        width: 183
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7393337a26684caf0800000000000000
+      internalID: -377028710522209993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallLake
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 690
+        width: 84
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1068958617979e0800000000000000
+      internalID: -1623141497697861175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LWhole
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 696
+        width: 181
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1289f69889cabab30800000000000000
+      internalID: 4299720040396068897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_tiles_19
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 672
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a62e329c5acca0b0800000000000000
+      internalID: -5715971328100653405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigTree
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 402
+        width: 165
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47843e94c8510c190800000000000000
+      internalID: -7944326050402318220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SingleSmallTree
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 492
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa120f70c808bacc0800000000000000
+      internalID: -3698721330037775953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeSmallTree
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 473
+        width: 82
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41e873ddeb71f020800000000000000
+      internalID: 2373814739986342222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FourSmallTrees
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 473
+        width: 99
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8af59248475739e0800000000000000
+      internalID: -1641747571286869363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florest
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 371
+        width: 335
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3d157d8851763e0800000000000000
+      internalID: -2060654627026512937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigSinglePineTree
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 508
+        width: 31
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1693913e3e5fec80800000000000000
+      internalID: -8291304767753054693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallSinglePineTree
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 501
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ad60a1aa8398260800000000000000
+      internalID: 7100268590758550116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PineForest
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 469
+        width: 182
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc150bbe61d9acb10800000000000000
+      internalID: 2002585706088649164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightBridge
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 512
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b81138c3fef9040800000000000000
+      internalID: 4656703582900423571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftBridge
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 512
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24cebb5bda4b23510800000000000000
+      internalID: 1527481881803353154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleRightBridge
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 512
+        width: 79
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a47274d9c3be7100800000000000000
+      internalID: 107721120537539747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleLeftBridge
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 512
+        width: 79
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a117b46364f2447d0800000000000000
+      internalID: -2935169078533590758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SingleRightHouse
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 512
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf0983a47043f1e0800000000000000
+      internalID: -2165316126131023906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SingleLeftHouse
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 512
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557eb2ecdc4495530800000000000000
+      internalID: 3844179407655397205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Church
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 510
+        width: 40
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347cbc7bab50dfd40800000000000000
+      internalID: 5619654209533888323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigHouse
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 510
+        width: 60
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c213b2fa0d7d4a0800000000000000
+      internalID: -6568552080734082035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MidiumRightPath
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 151
+        width: 185
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fcc9dbe33ee03fb0800000000000000
+      internalID: -4669970906815542028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallPath
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 193
+        width: 302
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d223e18a657b4fad0800000000000000
+      internalID: -2669307096308239827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigPath
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 170
+        width: 722
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6c084b0437bbfc0800000000000000
+      internalID: -3478059565470136672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MidiumLeftPath
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 174
+        width: 254
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c93e046804ba370800000000000000
+      internalID: 8334826480737688729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4fee71426f173354ea809ce9717b578f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BigHouse: -6568552080734082035
+      BigLake: 8627697732051245876
+      BigPath: -3478059565470136672
+      BigSinglePineTree: -8291304767753054693
+      BigTree: -7944326050402318220
+      BigVulcan: -4383390958192937480
+      Church: 5619654209533888323
+      CraqueWhole: -8192247243106015667
+      Florest: -2060654627026512937
+      FourSmallTrees: -1641747571286869363
+      LWhole: 4299720040396068897
+      LeftBridge: 1527481881803353154
+      MediumMoutains: 4139987310886165389
+      MidiumLake: -377028710522209993
+      MidiumLeftPath: 8334826480737688729
+      MidiumRightPath: -4669970906815542028
+      MidiumVulcan: 4484424034553307340
+      PineForest: 2002585706088649164
+      RightBridge: 4656703582900423571
+      RoundWhole: 3390015234144355829
+      SimpleLeftBridge: -2935169078533590758
+      SimpleRightBridge: 107721120537539747
+      SingleLeftHouse: 3844179407655397205
+      SingleMountain: 2613652263046608732
+      SingleRightHouse: -2165316126131023906
+      SingleRoundMoutain: 1134881870695140533
+      SingleSmallTree: -3698721330037775953
+      SmallLake: -1623141497697861175
+      SmallMoutains: -3689806418822163
+      SmallPath: -2669307096308239827
+      SmallSingleMoutain: 1985121356617323437
+      SmallSinglePineTree: 7100268590758550116
+      SmallVulcan: 984925467744021163
+      TinyVulcan: -2865361831375743556
+      TreeSmallTree: 2373814739986342222
+      TwoBigMountains: -1975395266137552942
+      TwoRoundMoutains: 46025511170422088
+      TwoSmallMoutains: 1729372142473240743
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
