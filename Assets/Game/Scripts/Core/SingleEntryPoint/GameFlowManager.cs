@@ -17,6 +17,8 @@ public class GameFlowManager : MonoBehaviour
     [SerializeField] private BinarySaveService _saveService;
    /*  [SerializeField] private MonoPool<GameObject> _bulletPool; */
     [SerializeField] UpdateManager _updateManager;
+    [SerializeField] FixedUpdateManager _fixedUpdateManager;
+    [SerializeField] LateUpdateManager _lateUpdateManager;
     private List<IGameSystem> systems = new();
     private IAuthService _authService;
     private GameContext _ctx;
@@ -43,6 +45,8 @@ public class GameFlowManager : MonoBehaviour
 
         /*   ServiceLocator.RegisterSingleton<IObjectPool<GameObject>>(_bulletPool); */
         ServiceLocator.RegisterSingleton<IUpdateManager>(_updateManager);
+        ServiceLocator.RegisterSingleton<IFixedUpdateManager>(_fixedUpdateManager); // FixedUpdate
+        ServiceLocator.RegisterSingleton<ILateUpdateManager>(_lateUpdateManager); 
         // _uiService.Register("Settings", _settingsController);
     }
     
